@@ -7,9 +7,7 @@ async function main() {
     // "mongodb+srv://user:use@cluster0.0b3wjiz.mongodb.net/?retryWrites=true&w=majority";
     "mongodb://localhost:27017";
     
-    // MongoClientOptions options = MongoClientOptions.builder()
-    // .socketKeepAlive(false)
-    // .build();
+
   const client = new MongoClient(uri);
 
   try {
